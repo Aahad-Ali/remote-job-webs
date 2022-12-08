@@ -20,7 +20,27 @@ function App(e) {
             </div>
           </div>
         </div>
-        
+        <div className="row first-image-word">
+          <div className="col">
+            <div className="paragraph">
+              <p>CELEBRER</p>
+            </div>
+          </div>
+          <div className="col">
+            <div className="paragraph">
+              <h1>Helping You Build resilient Business</h1>
+            </div>
+          </div>
+          <div className="col">
+            <div className="paragraph">
+              <p>
+                Pellentesque odio aliquam vitae amet, elementum at urna
+                facilisis purus, integer nam libero pharetra viverra et dolor
+                tellus, eget commodo tellus tempus vitae.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="row">
           <div className="col">
             <div className="bg-image-two">

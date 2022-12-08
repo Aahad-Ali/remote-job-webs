@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .homepage-banner {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  transform-origin: left top;
+  line-height: 0.94;
+  transform: scale(0.9, 1.3);
+  font-size: 5rem;
+  
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  color: black;
+}
+.home-title {
+  margin: 0.5rem 0;
+  transform: scale(0.8, 1);
+  transform-origin: left top;
+}
+.home-title-bottom {
+  color: #06c9f4;
+  margin: 0.5rem 0;
+  transform: scale(0.7.5, 1);
+  transform-origin: left top;
+}
+.homedescription {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.color-orange {
+  background-color: orange;
+}
+
+.color-blue {
+  background-color: #06c9f4;
+}
+.row {
+  width: 100%;
+}
+.dark-blue {
+  background-color: #002c77;
+}
+.header-title h3 {
+  display: flex;
+  transform: scale(1.2, 1.2);
+  font-weight: bolder;
+  margin-top: 18px;
+  transform-origin: left top;
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
+.peoples {
+  display: flex;
+  justify-content: space-between;
+}
+.card-text{
+  font-size: 12px;
+} */
+.bg-image {
+  /* background-color:rgba(0,0,0,1); */
+
+  filter: blur(1px);
+  filter: brightness(60%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid .row .col {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.bg-image-two {
+  /* background-color:rgba(0,0,0,1); */
+
+  filter: blur(5px);
+  filter: brightness(36%);
+}

@@ -4,7 +4,7 @@ import "./App.css";
 // import Gallery from './components/gallery/gallery';
 import Navbar from "./components/navbar/navbar";
 
-function App(e) {
+function App() {
   return (
     <>
       <Navbar />
@@ -14,25 +14,25 @@ function App(e) {
             <div className="bg-image">
               <img
                 src="https://celebrer.org/wp-content/uploads/2022/06/startup-whiteboard-room-3267505.jpg"
-                className="img-fluid w-100"
+                className="image-fluid"
                 alt=""
               />
             </div>
           </div>
         </div>
-        <div className="row first-image-word">
-          <div className="col">
+        <div className="first-image-word">
+          <div className="col wrap">
             <div className="paragraph">
-              <p>CELEBRER</p>
+              <h5>CELEBRER</h5>
             </div>
           </div>
           <div className="col">
-            <div className="paragraph">
+            <div className="heading">
               <h1>Helping You Build resilient Business</h1>
             </div>
           </div>
           <div className="col">
-            <div className="paragraph">
+            <div className="contant">
               <p>
                 Pellentesque odio aliquam vitae amet, elementum at urna
                 facilisis purus, integer nam libero pharetra viverra et dolor
@@ -46,7 +46,7 @@ function App(e) {
             <div className="bg-image-two">
               <img
                 src="https://celebrer.org/wp-content/uploads/2021/02/business-consulting-main-services-img-bg.jpg"
-                className="img-fluid w-100"
+                className="image-fluid"
                 alt=""
               />
             </div>
